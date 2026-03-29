@@ -1,6 +1,6 @@
 # StayProof Feedback
 
-Community issue tracker for [StayProof](https://stayproof.com) — the Chrome extension that compares accommodation across Booking.com, Airbnb, and Agoda to help you find genuinely good places to stay.
+Community issue tracker for [StayProof](https://stayproof.co) — the Chrome extension that compares accommodation across Booking.com, Airbnb, and Agoda to help you find genuinely good places to stay.
 
 ## How to Report
 
