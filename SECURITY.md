@@ -4,7 +4,7 @@
 
 **Do NOT open a public issue for security vulnerabilities.**
 
-Email security@stayproof.com with:
+Email hello@stayproof.co with:
 - Description of the vulnerability
 - Steps to reproduce
 - Impact assessment
