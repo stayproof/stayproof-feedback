@@ -1,0 +1,61 @@
+name: Platform Scraping Issue
+description: A platform's results are missing, incorrect, or incomplete
+title: "[Platform] "
+labels: ["scraper"]
+body:
+  - type: checkboxes
+    attributes:
+      label: Prerequisites
+      options:
+        - label: I checked pinned issues for known platform outages
+          required: true
+  - type: dropdown
+    attributes:
+      label: Platform
+      options:
+        - Booking.com
+        - Airbnb
+        - Agoda
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Problem type
+      options:
+        - No results returned
+        - Missing prices
+        - Missing ratings
+        - Wrong location results
+        - Fewer results than expected
+        - Other
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Search destination
+      placeholder: "e.g., Da Nang, Vietnam"
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Search dates
+      placeholder: "e.g., 15 Apr - 20 Apr 2026"
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: StayProof version
+      placeholder: "e.g., 1.0.0"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Details
+      description: Any additional context — what you see vs what you expected.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Screenshots
+    validations:
+      required: false

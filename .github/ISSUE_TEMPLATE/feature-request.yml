@@ -1,0 +1,43 @@
+name: Feature Request
+description: Suggest a feature or improvement
+title: "[Feature] "
+labels: ["feature"]
+body:
+  - type: checkboxes
+    attributes:
+      label: Prerequisites
+      options:
+        - label: I searched existing issues and discussions for this idea
+          required: true
+  - type: textarea
+    attributes:
+      label: What problem does this solve?
+      description: Describe the problem or frustration this feature would address.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Proposed solution
+      description: How would you like this to work?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Alternatives considered
+      description: Any other approaches you've thought of.
+    validations:
+      required: false
+  - type: dropdown
+    attributes:
+      label: Area
+      options:
+        - Search results
+        - Scoring / rankings
+        - Cross-platform comparison
+        - Pricing
+        - Map view
+        - UI / design
+        - New platform support
+        - Other
+    validations:
+      required: true
