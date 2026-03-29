@@ -18,7 +18,3 @@ The extension runs entirely in your browser. It does not send your data to any s
 ## Scope
 
 This repo is for **community feedback only** — bug reports, feature requests, and discussion. The extension source code is maintained separately.
-
-## Known Issues
-
-Check [pinned issues](../../issues) before filing — if a platform scraper is currently broken, there will be a pinned tracking issue.
